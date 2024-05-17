@@ -1,6 +1,7 @@
 import { ContentfulContentSource } from '@stackbit/cms-contentful'
 
 export default {
+    stackbitVersion: "~0.6.0",
   contentSources: [
     new ContentfulContentSource({
       spaceId: process.env.CONTENTFUL_SPACE_ID,
